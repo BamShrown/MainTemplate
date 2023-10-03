@@ -1,0 +1,208 @@
+
+// Variables
+
+// Colours
+
+$primary-color: #B1E9F0;
+$secondary-color: #505859;
+$third-color: #45C8D6;
+$fourth-color: #3499A4;
+$fifth-color: #d5e8ea;
+$sixth-color: #e8f0f1;
+
+// Font Sizes
+$h1: clamp(3.2rem, 10vw, 2.3rem);
+$h2: clamp(2rem, 7vw, 1.9rem);
+$h3: clamp(1.7rem, 5vw, 1.8rem);
+$h4: clamp(1.4rem, 2.7vw, 1.7rem); 
+$h5: clamp(1.2rem, 2.2vw, 1.5rem); 
+$h6: clamp(1.1rem, 1.8vw, 1.2rem); 
+$p: clamp(1rem, 1.5vw, 1rem); 
+$i: 25px;
+
+
+// All
+
+* {
+    color: $secondary-color;
+    font-family: 'Quicksand', sans-serif;
+    
+    h1, .h1 {
+        font-size: $h1;
+        color: $secondary-color;
+        font-weight: 700;
+    }
+
+    h2, .h2 {
+        font-size: $h2;
+        color: $secondary-color;
+        font-weight: 700;
+    }
+
+    h3, .h3 {
+        font-size: $h3;
+    }
+
+    h4, .h4 {
+        font-size: $h4;
+    }
+
+    h5, .h5 {
+        font-size: $h5;
+        
+    }
+    h6, .h6 {
+        font-size: $h6;
+        
+    }
+
+    .smalltext {
+        font-size: 20px;
+    }
+
+    p, .p {
+        font-size: $p;
+        font-family: 'Golos Text', sans-serif;
+    }
+
+    body {
+        background-color: $primary-color;
+    }
+
+    img {
+    }
+
+}
+
+
+
+
+.boxshadow {
+    -webkit-box-shadow: -1px -16px 35px 16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -16px 35px 16px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -16px 35px 16px rgba(0, 0, 0, 0.75);
+}
+
+.textshadow {
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.btn-primary {
+    padding: 5px 16px 5px 16px!important;
+    border-radius: 30px;
+    border: solid 1px $fourth-color;
+    transition: 0.4s;
+    background-color: $fourth-color;
+    text-decoration: none; 
+    color: $fifth-color;
+    font-size: 20px;
+    font-weight: 700;
+
+
+
+    i {
+        color: $fifth-color;
+    }
+
+    &:hover {
+        background-color: transparent;
+        border: solid 1px $fourth-color;
+        color: $fourth-color!important;
+        transition: 0.4s;
+        text-decoration: none;
+
+        i {
+            color: $fourth-color!important;
+            transition: 0.4s;
+        }
+    }
+  
+}
+
+.btn-secondary {
+    padding: 5px 16px 5px 16px!important;
+    border-radius: 30px;
+    border: solid 1px $fourth-color;
+    transition: 0.4s;
+    background-color: transparent;
+    text-decoration: none; 
+    color: $secondary-color;
+    font-size: 20px;
+    font-weight: 700;
+
+
+    &:hover {
+        background-color: $fourth-color;
+        border: $fourth-color;
+        color: $fifth-color!important;
+        transition: 0.4s;
+        text-decoration: none;
+
+        i {
+            color: $fifth-color!important;
+            transition: 0.4s;
+        }
+    }
+  
+}
+
+
+
+
+//   ALL MEDIA
+////////////////////////////////////////////////
+//
+// 
+
+//   EX EX LARGE SCREENS
+////////////////////////
+
+@media (min-width: 1750px) {
+
+
+  }
+
+
+
+
+
+//   EX LARGE SCREENS
+////////////////////////
+
+  @media (min-width: 1200px) {
+
+
+  }
+
+
+// 
+//   LARGE SCREENS
+////////////////////////
+
+@media (min-width: 992px) {
+
+
+
+}
+
+
+// 
+//   MEDIUM SCREENS
+////////////////////////
+
+@media (min-width: 768px) {
+   
+ 
+}
+
+
+// 
+//   SMALL SCREENS
+////////////////////////
+
+@media (min-width: 576px) {
+
+
+    
+}
+
